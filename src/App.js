@@ -11,6 +11,7 @@ import Skills from './components/Skills';
 import Activities from './components/Activities';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import DownloadCV from './components/DownloadCV'; // ✅ You already imported it
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,9 @@ function App() {
           <p>Aspiring Linguist | Model | Youth Advocate</p>
         </div>
       </div>
+
+      {/* ✅ CV Download Button */}
+      <DownloadCV />
 
       <section id="about" data-aos="fade-up">
         <About />
