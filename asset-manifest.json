@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/funanani-portfolio/static/css/main.ab53cff3.css",
+    "main.js": "/funanani-portfolio/static/js/main.0ebeec63.js",
+    "index.html": "/funanani-portfolio/index.html",
+    "main.ab53cff3.css.map": "/funanani-portfolio/static/css/main.ab53cff3.css.map",
+    "main.0ebeec63.js.map": "/funanani-portfolio/static/js/main.0ebeec63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab53cff3.css",
+    "static/js/main.0ebeec63.js"
+  ]
+}
