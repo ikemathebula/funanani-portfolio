@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/funanani-portfolio/static/css/main.e7bf8164.css",
-    "main.js": "/funanani-portfolio/static/js/main.6246194f.js",
+    "main.css": "/funanani-portfolio/static/css/main.d3f7f646.css",
+    "main.js": "/funanani-portfolio/static/js/main.d4c8e072.js",
     "index.html": "/funanani-portfolio/index.html",
-    "main.e7bf8164.css.map": "/funanani-portfolio/static/css/main.e7bf8164.css.map",
-    "main.6246194f.js.map": "/funanani-portfolio/static/js/main.6246194f.js.map"
+    "main.d3f7f646.css.map": "/funanani-portfolio/static/css/main.d3f7f646.css.map",
+    "main.d4c8e072.js.map": "/funanani-portfolio/static/js/main.d4c8e072.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7bf8164.css",
-    "static/js/main.6246194f.js"
+    "static/css/main.d3f7f646.css",
+    "static/js/main.d4c8e072.js"
   ]
 }
