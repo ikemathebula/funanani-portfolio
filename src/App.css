@@ -42,3 +42,29 @@ ul {
 section {
   margin-bottom: 30px;
 }
+
+/* 🔵 New Section: Profile Layout */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro-text {
+  text-align: left;
+}
+
+.intro-text h1 {
+  margin-bottom: 0.3rem;
+  color: #007ACC;
+}

@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Navbar from './components/Navbar';
 import About from './components/About';
@@ -11,40 +13,47 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="App">
       <Navbar />
 
-      <img
-        src="/funanani.jpg"
-        alt="Funanani Ramabulana"
-        style={{ width: "160px", borderRadius: "50%", marginTop: "20px" }}
-      />
+      <div className="intro">
+        <img
+          src={process.env.PUBLIC_URL + "/funanani.jpg"}
+          alt="Funanani Ramabulana"
+          className="profile-pic"
+        />
+        <div className="intro-text">
+          <h1>Funanani Ramabulana</h1>
+          <p>Aspiring Linguist | Model | Youth Advocate</p>
+        </div>
+      </div>
 
-      <h1>Funanani Ramabulana</h1>
-      <p>Aspiring Linguist | Model | Youth Advocate</p>
-
-      <section id="about">
+      <section id="about" data-aos="fade-up">
         <About />
       </section>
 
-      <section id="education">
+      <section id="education" data-aos="fade-right">
         <Education />
       </section>
 
-      <section id="experience">
+      <section id="experience" data-aos="fade-left">
         <Experience />
       </section>
 
-      <section id="skills">
+      <section id="skills" data-aos="zoom-in">
         <Skills />
       </section>
 
-      <section id="activities">
+      <section id="activities" data-aos="fade-up">
         <Activities />
       </section>
 
-      <section id="contact">
+      <section id="contact" data-aos="fade-up">
         <Contact />
       </section>
 
