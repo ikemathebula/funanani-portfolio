@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -15,15 +15,24 @@ import DownloadCV from './components/DownloadCV';
 import WhatsAppButton from './components/WhatsAppButton';
 import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
+import ThemeToggle from './components/ThemeToggle';
+import LanguageSelector from './components/LanguageSelector';
+
+import en from './lang/en';
 
 function App() {
+  const [content, setContent] = useState(en);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
 
   return (
     <div className="App">
+      <div id="top"></div>
       <Navbar />
+
+      <LanguageSelector onLangChange={setContent} />
 
       <div className="intro">
         <img
@@ -33,12 +42,13 @@ function App() {
         />
         <div className="intro-text">
           <h1>Funanani Ramabulana</h1>
-          <p>Aspiring Linguist | Model | Youth Advocate</p>
+          <p>{content.greeting}</p>
         </div>
       </div>
 
       <DownloadCV />
       <WhatsAppButton />
+      <ThemeToggle />
 
       <section id="about" data-aos="fade-up">
         <About />
