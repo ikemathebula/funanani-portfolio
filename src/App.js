@@ -11,7 +11,10 @@ import Skills from './components/Skills';
 import Activities from './components/Activities';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import DownloadCV from './components/DownloadCV'; // ✅ You already imported it
+import DownloadCV from './components/DownloadCV';
+import WhatsAppButton from './components/WhatsAppButton';
+import Testimonials from './components/Testimonials';
+import Blog from './components/Blog';
 
 function App() {
   useEffect(() => {
@@ -34,8 +37,8 @@ function App() {
         </div>
       </div>
 
-      {/* ✅ CV Download Button */}
       <DownloadCV />
+      <WhatsAppButton />
 
       <section id="about" data-aos="fade-up">
         <About />
@@ -55,6 +58,14 @@ function App() {
 
       <section id="activities" data-aos="fade-up">
         <Activities />
+      </section>
+
+      <section id="blog" data-aos="fade-up">
+        <Blog />
+      </section>
+
+      <section id="testimonials" data-aos="fade-up">
+        <Testimonials />
       </section>
 
       <section id="contact" data-aos="fade-up">
