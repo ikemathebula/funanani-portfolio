@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/funanani-portfolio/static/css/main.c1abb4da.css",
-    "main.js": "/funanani-portfolio/static/js/main.c3ca46d1.js",
+    "main.js": "/funanani-portfolio/static/js/main.59ae2785.js",
     "index.html": "/funanani-portfolio/index.html",
     "main.c1abb4da.css.map": "/funanani-portfolio/static/css/main.c1abb4da.css.map",
-    "main.c3ca46d1.js.map": "/funanani-portfolio/static/js/main.c3ca46d1.js.map"
+    "main.59ae2785.js.map": "/funanani-portfolio/static/js/main.59ae2785.js.map"
   },
   "entrypoints": [
     "static/css/main.c1abb4da.css",
-    "static/js/main.c3ca46d1.js"
+    "static/js/main.59ae2785.js"
   ]
 }
