@@ -17,6 +17,7 @@ import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
 import ThemeToggle from './components/ThemeToggle';
 import LanguageSelector from './components/LanguageSelector';
+import Timeline from './components/Timeline'; // ✅ NEW
 
 import en from './lang/en';
 
@@ -64,6 +65,10 @@ function App() {
 
       <section id="skills" data-aos="zoom-in">
         <Skills />
+      </section>
+
+      <section id="timeline" data-aos="fade-up">
+        <Timeline />
       </section>
 
       <section id="activities" data-aos="fade-up">

@@ -1,14 +1,44 @@
 import React from 'react';
+import Slider from 'react-slick';
+import './Testimonials.css';
 
 function Testimonials() {
+  const testimonials = [
+    {
+      name: 'Mr. Mokoena (Teacher)',
+      quote: 'Funanani is one of the most passionate and articulate learners I’ve ever taught.',
+    },
+    {
+      name: 'Thuli Ndlovu (Youth Leader)',
+      quote: 'Her leadership in the community is inspiring — a real role model.',
+    },
+    {
+      name: 'Pageant Judge (Miss Unspoken SA)',
+      quote: 'She stood out with grace, confidence, and purpose beyond the competition.',
+    }
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
+  };
+
   return (
-    <section id="testimonials" style={{ marginTop: '40px' }}>
-      <h2>What Others Say</h2>
-      <ul>
-        <li>"Funanani is a true inspiration to young girls in Roodepoort!" – Community Leader</li>
-        <li>"Her passion for language and advocacy is unmatched." – Kgatelopele Teacher</li>
-        <li>"She has a bright future and is already making a difference." – Miss Unspoken SA Judge</li>
-      </ul>
+    <section>
+      <h2>Testimonials</h2>
+      <Slider {...settings}>
+        {testimonials.map((item, index) => (
+          <div key={index} className="testimonial-slide">
+            <p className="quote">“{item.quote}”</p>
+            <p className="author">— {item.name}</p>
+          </div>
+        ))}
+      </Slider>
     </section>
   );
 }

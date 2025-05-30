@@ -1,0 +1,40 @@
+.timeline {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #007ACC;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -11px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background-color: #007ACC;
+    border-radius: 50%;
+  }
+  
+  .timeline-content h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #007ACC;
+  }
+  
+  .timeline-content h4 {
+    margin: 2px 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .timeline-content p {
+    margin: 5px 0 0;
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+  
