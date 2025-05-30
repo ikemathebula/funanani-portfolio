@@ -1,12 +1,18 @@
+
 .testimonial-slide {
     text-align: center;
     padding: 30px;
+    margin: 0 15px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
   
   .quote {
     font-size: 1.2rem;
     font-style: italic;
     color: #444;
+    margin-bottom: 15px;
   }
   
   .author {
@@ -15,8 +21,33 @@
     color: #007ACC;
   }
   
-  /* slick styles */
+  /* Dots below slider */
   .slick-dots li button:before {
     color: #007ACC;
+    font-size: 12px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #007ACC;
+    opacity: 1;
+  }
+  
+  /* Arrows */
+  .slick-prev:before,
+  .slick-next:before {
+    color: #007ACC;
+    font-size: 24px;
+  }
+  
+  /* Optional: responsive tweaks */
+  @media screen and (max-width: 768px) {
+    .testimonial-slide {
+      padding: 20px;
+      margin: 0 5px;
+    }
+  
+    .quote {
+      font-size: 1rem;
+    }
   }
   
