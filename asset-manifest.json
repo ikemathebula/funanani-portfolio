@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/funanani-portfolio/static/css/main.c4b135d0.css",
-    "main.js": "/funanani-portfolio/static/js/main.1f34cd5a.js",
+    "main.css": "/funanani-portfolio/static/css/main.d5d906f5.css",
+    "main.js": "/funanani-portfolio/static/js/main.3981e38c.js",
+    "static/media/slick.svg": "/funanani-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/funanani-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/funanani-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/funanani-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/funanani-portfolio/index.html",
-    "main.c4b135d0.css.map": "/funanani-portfolio/static/css/main.c4b135d0.css.map",
-    "main.1f34cd5a.js.map": "/funanani-portfolio/static/js/main.1f34cd5a.js.map"
+    "main.d5d906f5.css.map": "/funanani-portfolio/static/css/main.d5d906f5.css.map",
+    "main.3981e38c.js.map": "/funanani-portfolio/static/js/main.3981e38c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4b135d0.css",
-    "static/js/main.1f34cd5a.js"
+    "static/css/main.d5d906f5.css",
+    "static/js/main.3981e38c.js"
   ]
 }
